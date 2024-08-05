@@ -5,12 +5,11 @@ This repository provides a basic implementation of object tracking using Scale-I
 ## Dependencies
 - OpenCV (`cv2`)
 - NumPy (`numpy`)
-- Matplotlib (`matplotlib`) 
 
 You can install these libraries using pip:
 
 ```bash
-pip install opencv-python numpy matplotlib
+pip install opencv-python numpy
 ```
 
 ## Code Overview
