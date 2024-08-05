@@ -28,7 +28,7 @@ pip install opencv-python numpy
    - Create a SIFT object (`cv2.SIFT_create()`)
    - Detect and compute SIFT keypoints and descriptors from the grayscale ROI.
   
-![Screenshot](image.png) 
+![Screenshot](assests/image.png) 
 
 4. **Object Tracking:**
    - Loop through the remaining frames of the video.
@@ -54,6 +54,6 @@ pip install opencv-python numpy
 ## Demo
 
 <video width="640" height="480" controls>
-  <source src="demo.m4v" type="video/m4v">
+  <source src="assests/demo.mp4" type="video/m4v">
   Your browser does not support the video tag.
 </video>
