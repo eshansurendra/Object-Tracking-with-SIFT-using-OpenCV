@@ -27,6 +27,8 @@ pip install opencv-python numpy
    - Convert the ROI to grayscale.
    - Create a SIFT object (`cv2.SIFT_create()`)
    - Detect and compute SIFT keypoints and descriptors from the grayscale ROI.
+  
+![Screenshot](image.png) 
 
 4. **Object Tracking:**
    - Loop through the remaining frames of the video.
@@ -47,4 +49,11 @@ pip install opencv-python numpy
 2. Run the script. 
 3. Click and drag your mouse on the first frame of the video to select the object you want to track. 
 4. Press the middle mouse button to reset the selected region if needed.
-5. Press 'Esc' to exit the program. 
+5. Press 'Esc' to exit the program.
+
+## Demo
+
+<video width="640" height="480" controls>
+  <source src="demo.m4v" type="video/m4v">
+  Your browser does not support the video tag.
+</video>
